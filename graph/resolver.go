@@ -9,4 +9,5 @@ import "github.com/lucasferreirajs/13-GraphQL/internal/database"
 // onde injetamos dependência
 type Resolver struct {
 	CategoryDB *database.Category
+	CourseDB   *database.Course
 }
